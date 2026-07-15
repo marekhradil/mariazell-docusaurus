@@ -6,13 +6,13 @@ import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
   title: "Mariazell",
-  tagline: "Mariazell - Benefit CZ ubytov8n9, informace",
+  tagline: "Mariazell - Benefit CZ ubytování, informace",
   favicon: "img/favicon.ico",
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
-  future: {
-    v4: true, // Improve compatibility with the upcoming Docusaurus v4
-  },
+  // future: {
+  //   v4: true, // Improve compatibility with the upcoming Docusaurus v4
+  // },
 
   // Set the production url of your site here
   url: "https://your-docusaurus-site.example.com",
@@ -21,7 +21,7 @@ const config: Config = {
   baseUrl: "/",
 
   onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "warn",
+  //onBrokenMarkdownLinks: "warn",
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
